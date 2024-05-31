@@ -1,0 +1,32 @@
+.join-pages{
+    width: 80%;
+    height: 50vh;
+    border-radius: 32px;
+    background-color: 
+    #02897A;
+    margin: 160px  auto  ;
+    display: flex;
+    .join-pages-text{
+        width: 60%;
+        height: 75%;
+        // border: 2px solid;
+        margin: 40px 50px;
+        h2{
+            width: 480px;
+            height: 92px;
+            font-size: 30px;
+            color: inherit;
+
+        }
+        button{
+          width: 150px;
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          cursor: pointer;
+          margin: 110px 0px;
+          font-size: 16px;
+          color: #02897A;
+        }
+    }
+}

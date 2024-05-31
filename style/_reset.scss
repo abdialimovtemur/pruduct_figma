@@ -1,0 +1,41 @@
+body{
+    background-color: #1F2E35;
+    color: white;
+}
+
+
+.reset{
+    width: 85%;
+    height: 80vh;
+    margin: 90px auto;
+    display: flex;
+
+    .reset-text{
+        width: 50%;
+        height: 100%;
+
+        h1{
+            width: 390px;
+            height: 120px;
+            font-size: 40px;
+            color: inherit;
+            margin: 100px 0px 20px 0px;
+        }
+        p{
+            width: 440px;
+            height: 95px;
+            font-size: 18px;
+            font-weight: 100;
+            color: inherit;
+            
+        }
+        button{
+            width: 175px;
+            height: 50px;
+            font-size: 16px;
+        }
+
+       
+
+    }
+}

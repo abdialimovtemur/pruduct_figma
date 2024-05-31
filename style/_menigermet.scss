@@ -1,0 +1,39 @@
+.menigermet{
+    width: 85%;
+    height: 100%;
+    margin: 0px auto;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    
+    .menigermet-box{
+        display: flex;
+        // border: 2px solid;
+     
+    }
+    .menigermet-text{
+        width: 50%;
+        height: 50vh;
+     
+        p{
+            color: inherit;
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+        h2{
+            color: inherit;
+            font-size: 20px;
+            padding: 15px 0px;
+        }
+        h5{
+            color: inherit;
+            font-size: 18px;
+        }
+        span{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+}

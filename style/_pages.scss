@@ -1,0 +1,51 @@
+.pages{
+    width: 100%;
+    height: 70vh;
+    .pages-logo{
+        width: 540px;
+        height: 100px;
+        margin: 0 auto;
+        h1{
+            width: 500px;
+            height: 96px;
+            font-size: 30px;
+            text-align: center;
+            color: inherit;
+        }
+    }
+    .pages-text{
+        width: 85%;
+        height: 30vh;
+        margin: 60px auto;
+        display: flex;
+        gap: 50px;
+        .pages-text-box{
+            width: 260px;
+            height: 95%;
+            h2{
+                width: 200px;
+                height: 33px;
+                color: inherit;
+                font-size: 22px;
+                margin: 20px 0px 10px;
+            }
+            p{
+                width: 240px;
+                height: 52px;
+                font-size: 16px;
+                color: inherit;
+            }
+        }
+    }
+    button{
+        width: 167px;
+        height: 45px; 
+        color: #FFFFFF; 
+        background-color: 
+        #02897A;
+        margin: 0px 650px; 
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

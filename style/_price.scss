@@ -1,0 +1,102 @@
+.price{
+    width: 80%;
+    height: 100vh;
+    margin: 90px auto;
+    h1{
+        width: 192px;
+        height: 51px;
+        font-size: 34px;
+        margin: 0px auto;
+        color: inherit;
+    }
+    p{
+        width: 213px;
+        height: 24px;
+        font-size: 16px;
+        color: inherit;
+        margin: 0px auto;
+     
+    }
+    .price-list{
+        width: 100%;
+        height: 470px;
+        margin: 130px 0px 0px 0px;
+        display: flex;
+        gap: 110px;
+        .price-itms{
+            width: 323px;
+            height: 456px;
+            border-radius: 10px;
+            background-color: #FFFf;    
+            text-align: center;
+            gap: 20px;
+            &:hover{
+                background-color: #076358;
+            }
+            .price-button{
+                button{
+                    width: 139px;
+                    height: 44px;
+                    background-color: #028979a8;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }
+            }
+            h1{
+                color: black;
+            }
+            p{
+                color: black;
+                width: 250px;
+                height: 40px;
+            }
+            .price-number{
+                width: 170px;
+                height: 12vh;
+                display: flex;
+                // border: 2px solid;
+                margin: 30px auto;
+                .number{
+                    width: 100px;
+                    height:100%;
+                    // border: 2px solid;
+                    display: flex;
+                    align-items: center;
+          
+                    h4{
+                        font-size: 80px;
+                        color: 
+                        #02897A;
+                       
+                    }
+                }
+                .number-text{
+                         width: 290px;
+                         height: 100%; 
+                        //  border: 2px solid;      
+                    h3{
+                        margin: 5px 0px;
+                       font-size: 28px;
+                       width: 30px ;
+                       height: 30px;
+                       color: #02897A;
+                       h4{
+                        width: 290px;
+                         height:20px ;
+                         margin: 10px 0px;
+                       
+
+                       }
+                      
+                     
+                    }
+                }
+
+                
+            }
+
+        }
+    }
+}
