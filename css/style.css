@@ -54,7 +54,7 @@ header .nav-link .header-list #nav-button {
   border: 1px solid;
   background: transparent;
   border-radius: 5px;
-  color: white;
+  color: inherit;
 }
 
 .header__shrink {
@@ -64,6 +64,11 @@ header .nav-link .header-list #nav-button {
 body {
   background-color: #1F2E35;
   color: white;
+}
+
+.dark {
+  background-color: white;
+  color: black;
 }
 
 .reset {

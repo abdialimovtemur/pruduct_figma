@@ -7,3 +7,11 @@ window.addEventListener("scroll", () => {
     header.classList.remove("header__shrink");
   }
 });
+
+
+
+function btn(){
+    let element = document.body;
+    element.classList.toggle("dark");
+
+}
