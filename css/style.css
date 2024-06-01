@@ -2,8 +2,8 @@
 header {
   width: 100%;
   height: 70px;
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
   display: flex;
   position: sticky;
   left: 0;
@@ -13,6 +13,9 @@ header .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+header .navbar .login-btn:hover {
+  color: black;
 }
 header .navbar .nav-logo {
   display: flex;
@@ -59,6 +62,10 @@ header .nav-link .header-list #nav-button {
 
 .header__shrink {
   box-shadow: 0px 0px 2px 3px;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -307,12 +314,12 @@ a {
 }
 
 .join-pages {
-  width: 80%;
-  height: 50vh;
-  border-radius: 32px;
+  width: 71%;
+  border-radius: 20px;
   background-color: #02897A;
-  margin: 160px auto;
+  margin: 120px auto;
   display: flex;
+  box-shadow: 0px 0px 20px;
 }
 .join-pages .join-pages-text {
   width: 60%;
@@ -423,7 +430,7 @@ a {
 }
 
 .price {
-  width: 80%;
+  width: 70%;
   height: 100vh;
   margin: 90px auto;
 }
@@ -564,4 +571,245 @@ a {
 }
 .quick .quick-box .quick-box-blog .quick-pages .quick-pages-sms h4 {
   padding: 18px 10px;
+}
+
+.pricing {
+  width: 80%;
+  margin: 90px auto;
+}
+.pricing h1 {
+  width: 100%;
+  font-size: 34px;
+  color: inherit;
+  text-align: center;
+  color: inherit;
+}
+.pricing h3 {
+  text-align: center;
+  width: 100%;
+  color: inherit;
+}
+.pricing p {
+  width: 100%;
+  font-size: 16px;
+  color: inherit;
+  text-align: center;
+}
+.pricing .price-list {
+  width: 100%;
+  margin: 130px 0px 0px 0px;
+  display: flex;
+  gap: 120px;
+}
+.pricing .price-list .price-itms {
+  width: 323px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  gap: 20px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px;
+  border: 4px solid;
+}
+.pricing .price-list .price-itms:hover {
+  background-color: #2b524d;
+  border: 4px solid;
+  box-shadow: inset 1px 1px 20px;
+}
+.pricing .price-list .price-itms .price-button button {
+  width: 139px;
+  height: 44px;
+  background-color: rgba(2, 137, 121, 0.6588235294);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.pricing .price-list .price-itms h1 {
+  color: black;
+}
+.pricing .price-list .price-itms p {
+  color: black;
+  width: 250px;
+  height: 40px;
+}
+.pricing .price-list .price-itms .price-number {
+  width: 170px;
+  height: 12vh;
+  display: flex;
+  margin: 30px auto;
+}
+.pricing .price-list .price-itms .price-number .number {
+  display: flex;
+  align-items: center;
+}
+.pricing .price-list .price-itms .price-number .number h4 {
+  font-size: 80px;
+  color: #02897A;
+}
+.pricing .price-list .price-itms .price-number h4 {
+  color: black;
+}
+.pricing .price-list .price-itms .price-number .number-text {
+  width: 290px;
+  height: 100%;
+}
+.pricing .price-list .price-itms .price-number .number-text h3 {
+  margin: 5px 0px;
+  font-size: 28px;
+  width: 30px;
+  height: 30px;
+  color: #02897A;
+}
+.pricing .price-list .price-itms .price-number .number-text h3 h4 {
+  width: 290px;
+  height: 20px;
+  margin: 10px 0px;
+}
+
+.enterprise {
+  width: 100%;
+  background-color: rgba(47, 96, 121, 0.5019607843);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 0px;
+}
+.enterprise h1 {
+  font-size: 30px;
+}
+.enterprise button {
+  border: none;
+  padding: 7px 27px;
+  border-radius: 5px;
+  background-color: #02897A;
+  color: white;
+  cursor: pointer;
+}
+.enterprise button:hover {
+  background-color: brown;
+}
+
+.product__effect {
+  text-align: center;
+  padding: 50px 95px;
+}
+.product__effect h1 {
+  font-size: 34px;
+}
+.product__effect .product__effect__cont {
+  display: flex;
+  padding: 90px 120px;
+  gap: 70px;
+  text-align: start;
+}
+.product__effect .product__effect__cont .product__effect__cont__right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.product__effect .product__effect__cont .product__img {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.question-FAQ {
+  text-align: center;
+}
+.question-FAQ .question {
+  padding: 40px 220px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.question-FAQ .question div {
+  padding: 14px 0px;
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid;
+}
+.question-FAQ .question .que {
+  display: flex;
+  flex-direction: column;
+}
+.question-FAQ .question .que div {
+  border-bottom: none;
+}
+
+.login-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(#006992, #2E1760);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.login-box input {
+  position: relative;
+  z-index: 1;
+  padding: 10px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  gap: 25px;
+  align-items: center;
+}
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.login-box .submit {
+  background-color: rgb(0, 229, 255);
+  color: rgba(11, 39, 16, 0.725);
+  font-weight: 800;
+  border-radius: 10px;
+  padding: 6px 20px;
+  border: 2px solid red;
+}
+.login-box .submit:hover {
+  background-color: blue;
+  color: white;
+}
+.login-box::after {
+  content: "";
+  position: absolute;
+  background: rgb(12, 2, 22);
+  inset: 4px;
+}
+.login-box::before {
+  content: "";
+  position: absolute;
+  width: 650px;
+  height: 140%;
+  background: linear-gradient(#23ba41, #ba8d8d);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

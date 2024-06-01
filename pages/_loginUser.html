@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+    <style>
+        body{
+           background: linear-gradient(red,blue);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <div class="nav-logo">
+                <a href="../index.html"> <img src="../images/nav-logo.svg" alt=""></a>
+                <a href="../index.html">
+                    <h2>Product</h2>
+                </a>
+            </div>
+            <div class="nav-link">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a class="header-link" href="#">Product</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Customers</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="../pages/pricing.html">Pricing</a>
+                    </li>
+                    <li class="header-item">
+                        <a class="header-link" href="#">Resources</a>
+                    </li>
+                    <a href="/pages/_loginUser.html" class="login-btn"><button id="nav-button">Login</button></a>
+                            
+                            <button onclick="btn()">DARK MODE</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <div class="user-box">
+                    <input type="text" name="" required="" placeholder="Username">
+                    <label>Username</label>
+                </div>
+        
+                <div class="user-box">
+                    <input type="password" name="" required="" placeholder="password">
+                    <label>Password</label>
+                </div>
+        
+                <a href="../index.html" class="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit
+                </a>
+            </form>
+        </div>
+    </main>
+</body>

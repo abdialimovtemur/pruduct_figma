@@ -1,0 +1,85 @@
+
+.login-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 50%;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(#006992,#2E1760);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    overflow: hidden;
+
+   
+    input{
+        position: relative;
+        z-index: 1;
+        padding: 10px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        gap: 25px;
+        align-items: center;
+    }
+
+
+    h2{
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .submit{
+        background-color: rgb(0, 229, 255);
+        color: rgba(11, 39, 16, 0.725);
+        font-weight: 800;
+        border-radius: 10px;
+        padding: 6px 20px;
+        border: 2px solid red;
+
+        &:hover{
+            background-color: blue;
+            color: white;
+        }
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        background: rgb(12, 2, 22);
+        inset: 4px;
+    }
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 650px;
+        height: 140%;
+        background: linear-gradient(
+            #23ba41,#ba8d8d
+        );
+        animation: animate 4s linear infinite;
+    }
+
+    @keyframes animate{
+        0%{
+            transform:rotate(0deg);
+        }
+        100%{
+            transform:rotate(360deg);
+        }
+
+    }
+}

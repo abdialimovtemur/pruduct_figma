@@ -1,0 +1,26 @@
+.enterprise{
+    width: 100%;
+    background-color: #2f607980;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 0px;
+
+    h1{
+        font-size: 30px;
+    }
+
+    button{
+        border: none;
+        padding: 7px 27px;
+        border-radius: 5px;
+        background-color: #02897A;
+        color: white;
+        cursor: pointer;
+
+        &:hover{
+            background-color: brown;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: 70px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
     display: flex;
     position: sticky;
     left: 0;
@@ -11,6 +11,18 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .login-btn{
+            
+
+            &:hover{
+                color: black;
+            }
+           
+        }
+
+
+    
 
         .nav-logo{
             display: flex;

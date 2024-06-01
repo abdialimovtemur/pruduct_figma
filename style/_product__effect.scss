@@ -1,0 +1,31 @@
+.product__effect{
+    text-align: center;
+    padding: 50px 95px;
+
+    h1{
+        font-size: 34px;
+    }
+
+    .product__effect__cont{
+        display: flex;
+        padding: 90px 120px;
+        gap: 70px;
+        text-align: start;
+
+        .product__effect__cont__right{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .product__img{
+            align-items: center;
+            display: flex;
+            gap: 10px;
+            font-size: larger;
+            font-weight: 600;
+
+        }
+
+    }
+}

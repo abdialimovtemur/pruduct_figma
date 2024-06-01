@@ -1,0 +1,28 @@
+.question-FAQ{
+    text-align: center;
+
+    .question{
+        padding: 40px 220px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+
+        div{
+            padding: 14px 0px;
+            display: flex;
+            gap: 12px;
+            border-bottom: 1px solid;
+        }
+
+        .que{
+            display: flex;
+            flex-direction: column;
+            
+            div{
+                border-bottom: none;
+            }
+            
+        }
+    }
+}
