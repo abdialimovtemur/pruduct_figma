@@ -1,0 +1,33 @@
+.contact-us{
+    padding: 50px 0px;
+    &__info{
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        gap: 23px;
+
+        &__discription{
+            font-size: 22px;
+            width: 400px;
+        }
+
+        &__icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 24px 0px;
+        }
+    }
+
+    &__map{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+}

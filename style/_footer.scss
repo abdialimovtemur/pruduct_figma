@@ -2,8 +2,10 @@ footer{
     width: 85%;
     height: 40vh;
     margin: 0px auto;
-    display: flex;
-    gap: 150px   ;
+    display: grid;
+    gap: 10px;
+    padding: 120px 0px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     .link1{
       width: 182px;
       height: 100px;
@@ -17,10 +19,6 @@ footer{
         height: 205px;
         gap: 10px;
     }
-
-
-
-
 
     h3{
         font-size: 20px;
@@ -64,5 +62,4 @@ footer{
         border-bottom: 2px solid #02897A;
         transition: 0.7s;
     }
-
- }
+}

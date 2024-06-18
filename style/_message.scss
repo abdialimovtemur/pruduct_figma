@@ -1,0 +1,42 @@
+.message{
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    width: 58%;
+    background-color: #22343D;
+    border: 1px solid #464646;
+    padding: 120px 50px;
+
+    &__input__name{
+        width: 100%;
+        border-radius: 30px;
+        padding: 14px 20px;
+        border: none;
+    }
+
+    &__input__yourmessage{
+        width: 100%;
+        padding: 14px 20px 120px 20px;
+        height: 200px;
+        text-align: start;
+    }
+
+    &__input__email{
+        width: 100%;
+        border-radius: 30px;
+        padding: 14px 20px;
+        border: none;
+    }
+
+    &__button{
+        width: 20%;
+        padding: 14px 20px;
+        background-color: #02897A;
+        color: white;
+        border-radius: 30px;
+        border: none;
+
+    }
+
+}
+
