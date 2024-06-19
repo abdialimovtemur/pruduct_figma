@@ -1,0 +1,31 @@
+.choose-product{
+    padding: 100px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #22343D;
+    justify-content: space-between;
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        // align-items: ;
+        justify-content: space-between;
+        gap: 22px;
+        
+
+        &__card{
+            display: grid;
+            gap: 20px;
+            text-align: center;
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            padding: 40px 20px;
+            &__top{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

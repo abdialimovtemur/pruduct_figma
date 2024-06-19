@@ -1,0 +1,32 @@
+.join{
+    padding: 70px 0px;
+    text-align: center;
+    display: grid;
+    gap: 120px;
+    justify-content: center;
+    width: 100%;
+
+    &__title{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    &__cards{
+        display: flex;
+        gap: 170px;
+        width: 100%;
+        // grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+
+        &__card{
+            display: grid;
+            gap: 10px;
+        }
+    }
+
+}
+
+@media (max-width:600px){
+    .join__cards{
+        display: grid;
+    }
+}
